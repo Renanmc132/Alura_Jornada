@@ -5,11 +5,26 @@
     background-size: cover;
 }
 
+.hero h2{
+    padding: 88px 24px;
+    margin: 0;
+    font-weight: var(--text-wheight);
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
 @media screen and (min-width: 768px) {
     .hero-img{
         height: 620px;
         background: url(../images/hero-tablet.png) no-repeat;
         background-size: cover;
+    }
+
+    .hero h2{
+    padding: 88px 60px;
+    margin: 0;
+    font-size: 32px;
     }
 }
 
@@ -17,5 +32,24 @@
     .hero-img{
         background: url(../images/hero-desktop.png) no-repeat;
         background-size: cover;
+    }
+
+    .hero h2{
+    padding: 104px 120px;
+    margin: 0;
+    font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .hero-img{
+        background: url(../images/hero-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero h2{
+    padding: 104px 160px;
+    margin: 0;
+    font-size: 32px;
     }
 }
