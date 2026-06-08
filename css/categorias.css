@@ -1,0 +1,26 @@
+.category-card{
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    height: 220px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.category-card header{
+    background-color: transparent;
+    display: inline-block;
+    padding: 0;
+    position: static;
+}
+
+.category-card header img{
+    display: block;
+}
+
+.category-card footer h3{
+    font-size: 28px;
+    font-weight: var(--title-wheight);
+    text-align: center;
+}
+
