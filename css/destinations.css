@@ -1,0 +1,42 @@
+.destinations .item{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.destinations .item header{
+    display: block;
+    padding: 0;
+    position: static;
+    background-color: transparent;
+}
+
+.destinations .img-item{
+    width: 312px;
+    height: 360px;
+    background: url(../images/tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.destinations h4{
+    font-size: 28px;
+    font-weight: var(--title-wheight);
+    text-align: left;
+}
+
+.destinations p{
+    font-size: 20px;
+    font-weight: var(--text-wheight);
+    width: 312px;
+    text-align: left;
+}
+
+
+
+
+
+

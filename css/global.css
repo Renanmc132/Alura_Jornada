@@ -21,7 +21,7 @@
     --menu-text-wheight: 500;
 }
 
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button{
+body, img, h1, h2, h3, h4 p, fieldset, legend, label, input, select, textarea, button{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -62,6 +62,7 @@ body{
     font-size: 20px;
     border-radius: 16px;
     line-height: 64px;
+    text-align: center;
 }
 
 @media screen and (min-width:768px){
