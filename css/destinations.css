@@ -1,5 +1,10 @@
-.destinations .item{
+.destination-itens{
     display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.destinations .item{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,6 +31,7 @@
     font-size: 28px;
     font-weight: var(--title-wheight);
     text-align: left;
+    margin-top: 24px;
 }
 
 .destinations p{
@@ -33,9 +39,54 @@
     font-weight: var(--text-wheight);
     width: 312px;
     text-align: left;
+    line-height: 32px;
 }
 
+@media screen and (min-width:768px) {
 
+
+.destinations .img-item{
+    width: 648px;
+    height: 452px;
+    background: url(../images/tokyo-tablet-desk.jpg) no-repeat;
+    
+}
+
+.destinations p{
+    font-size: 20px;
+    width: 648px;
+}
+
+.item footer{
+    width: 648px;
+}
+
+}
+
+@media screen and (min-width:1440px) {
+.destination-itens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.destinations .img-item{
+    width: 588px;
+    height: 452px;
+}
+
+.destinations p{
+    font-size: 20px;
+    width: 588px;
+}
+
+.item footer{
+    width: 588px;
+}
+
+}
 
 
 
