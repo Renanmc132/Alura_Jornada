@@ -17,11 +17,6 @@
     text-align: center;
 }
 
-.card header p{
-    font-size: 20px;
-    font-weight: var(--text-wheight);
-}
-
 .card header h3{
     font-size: 40px;
     font-weight: var(--title-wheight);

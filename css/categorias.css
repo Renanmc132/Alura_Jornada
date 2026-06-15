@@ -26,8 +26,6 @@
 
 .category-card h3{
     color: var(--text-primary-color);
-    font-size: 28px;
-    font-weight: var(--title-wheight);
     text-align: center;
 }
 

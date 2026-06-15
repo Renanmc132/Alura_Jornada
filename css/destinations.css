@@ -28,18 +28,13 @@
 }
 
 .destinations h4{
-    font-size: 28px;
-    font-weight: var(--title-wheight);
     text-align: left;
     margin-top: 24px;
 }
 
 .destinations p{
-    font-size: 20px;
-    font-weight: var(--text-wheight);
     width: 312px;
     text-align: left;
-    line-height: 32px;
 }
 
 @media screen and (min-width:768px) {

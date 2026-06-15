@@ -1,0 +1,32 @@
+.text-content h3{
+    margin-bottom: 24px;
+}
+.text-content{
+    width: 312px;
+    margin-bottom: 24px;
+}
+
+.img-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.payments .image{
+    width: 144px;
+}
+
+.payments .image .bag{
+    background: url(../images/payments-bag-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image .passport{
+    background: url(../images/payments-passport-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image .people{
+    background: url(../images/payments-people-mobile.png) no-repeat;
+    background-size: cover;
+}
