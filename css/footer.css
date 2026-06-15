@@ -1,0 +1,17 @@
+.hero-footer-img{
+    width: 100%;
+    height: 400px;
+    background: url(../images/footer-hero-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.main-footer{
+    background-color: black;
+}
+
+.footer-container{
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+}
+

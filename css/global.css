@@ -41,6 +41,10 @@ section.hero{
     width: 100%;
 }
 
+section.hero-footer{
+    width: 100%;
+}
+
 .section-title{
     width: 280px;
     margin: 0 auto 32px;
