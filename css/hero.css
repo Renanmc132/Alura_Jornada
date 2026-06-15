@@ -21,8 +21,47 @@
     line-height: 1.5;
 }
 
-.packages{
-    background: url(../images/footer-hero-mobile.png) no-repeat;
+/* PACKAGES */
+
+.hero-img.packages{
+    width: 100%;
+    height: 460px;
+    background: url(../images/japao-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hero-container{
+    padding: 66px 24px;
+}
+
+.hero .packages h2{
+    font-size: 48px;
+    padding: 0;
+    margin: 0;
+    font-weight: var(--title-wheight);
+    color: var(--text-secondary-color);
+    text-align: left;
+}
+
+.hero .packages hr{
+    margin: 0 0 32px;
+}
+
+.packages .section-title{
+    margin: 0;
+}
+
+
+.packages p{
+    color: var(--text-secondary-color);
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: var(--text-wheight);
+    width: 312px;
+}
+
+.hero-footer-img.packages{
+    background: url(../images/ladies-mobile.png) no-repeat;
     background-size: cover;
 }
 
@@ -39,11 +78,42 @@
     font-size: 32px;
     }
 
+    
+
+/* PACKAGES */
+
+    .hero-img.packages{
+        height: 620px;
+        background: url(../images/japao-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .hero-img.packages.section-title h2{
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero-footer-img.packages{
+        background: url(../images/ladies-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero-container{
+    padding: 210px 70px 108px 120px;
+    }
+
+    .hero .packages h2{
+    margin: 0;
+    }
+
     .hero-footer-img{
     height: 620px;
     background: url(../images/footer-hero-tablet.png) no-repeat;
     background-size: cover;
-}
+    }
+
+    
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -55,12 +125,24 @@
     .hero-footer-img{
     background: url(../images/footer-hero-desktop.png) no-repeat;
     background-size: cover;
-}
+    }
 
     .hero h2{
         padding: 104px 120px;
         margin: 0;
         font-size: 32px;
+    }
+
+/* PACKAGES */
+
+    .hero-img.packages{
+    background: url(../images/japao-desktop.png) no-repeat;
+    background-size: cover;
+    }
+
+    .hero-footer-img.packages{
+    background: url(../images/ladies-desktop.png) no-repeat;
+    background-size: cover;
     }
 }
 
