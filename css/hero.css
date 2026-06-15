@@ -135,9 +135,8 @@
 
 /* PACKAGES */
 
-    .hero-img.packages{
-    background: url(../images/japao-desktop.png) no-repeat;
-    background-size: cover;
+    .hero .packages h2{
+    margin: 0;
     }
 
     .hero-footer-img.packages{
@@ -146,7 +145,7 @@
     }
 }
 
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1440px) {
     .hero-img{
         background: url(../images/hero-desktop.png) no-repeat;
         background-size: cover;
@@ -157,4 +156,26 @@
         margin: 0;
         font-size: 32px;
     }
+
+/* Packages */
+
+    .hero-img.packages{
+        height: 620px;
+        background: url(../images/japao-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .hero-img.packages.section-title h2{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hero-container{
+    padding: 210px 70px 108px 120px;
+    }
+
+    .hero .packages h2{
+    margin: 0;
+    }
+
 }
