@@ -12,19 +12,19 @@
     gap: 24px;
 }
 
-.destinations .item header{
-    display: block;
-    padding: 0;
-    position: static;
-    background-color: transparent;
-}
-
 .destinations .img-item{
     width: 312px;
     height: 360px;
+}
+
+.destinations .tokyo .img-item{
     background: url(../images/tokyo-mobile.jpg) no-repeat;
     background-size: cover;
-    
+}
+
+.destinations .osaka .img-item{
+    background: url(../images/osaka-mobile.jpg) no-repeat;
+    background-size: cover;
 }
 
 .destinations h4{
@@ -48,8 +48,11 @@
 .destinations .img-item{
     width: 648px;
     height: 452px;
+}
+
+.destinations .tokyo .img-item{
     background: url(../images/tokyo-tablet-desk.jpg) no-repeat;
-    
+    background-size: cover;
 }
 
 .destinations p{
