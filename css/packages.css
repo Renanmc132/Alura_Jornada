@@ -1,0 +1,44 @@
+.payments .castle{
+    background: url(../images/payments-bag-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .tower{
+    background: url(../images/payments-tower-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .man{
+    grid-column: span 2;
+    background: url(../images/payments-man-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .button{
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    
+.payments .castle{
+    background: url(../images/payments-bag-tablet.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .tower{
+    background: url(../images/payments-tower-tablet.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .man{
+    grid-column: span 2;
+    background: url(../images/payments-man-tablet.png) no-repeat;
+    background-size: cover;
+}
+
+.payments.mobile{
+    display: none;
+}
+
+}

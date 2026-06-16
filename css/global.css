@@ -69,7 +69,7 @@ section.hero-footer{
 .content-title{
     font-size: 28px;
     font-weight: var(--title-wheight);
-    color: var(--text-secondary-color);
+    color: var(--text-primary-color);
 }
 
 .content-text{
